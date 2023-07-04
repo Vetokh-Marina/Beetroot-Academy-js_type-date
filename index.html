@@ -6,12 +6,26 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Type & data</title>
+   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+   <main class="main">
+      <section class="section">
+         <h1 class="section__title">Please click the button to complete the task...</h1>
+         <p class="section__text">
+            <span class="section__text_decor">Условие :</span> Нужно ввести чётное число в интервале от 10 до 50 !Если
+            число
+            будет введено правильно , то ответом будет введенное число деленное на пополам. В противном случае будет
+            выведено ошибку "Вы забыли ввести значение" - если не будет введено значение или "Ваше значение введено не
+            некорректно &#128532; Попробуйте еще..."
+         </p>
+         <button onclick={inputValue()} class="section__btn">Click to start</button>
+      </section>
+   </main>
    <script src="./js/script.js"></script>
 </body>
 
-<button onclick={inputValue()}>sdsd</button>
+
 
 </html>
