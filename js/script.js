@@ -12,7 +12,8 @@ function inputValue() {
          inputValue();
       }
       alert(`You entered the correct value = ${userAnswer / 2}`)
-      return;
+      // inputValue();
+      return 0;
    }
 
 }
